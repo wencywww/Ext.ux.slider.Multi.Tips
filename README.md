@@ -33,7 +33,11 @@ Overrides the Sencha ExtJS mulstislider component to show persistent tips over t
 **Usage**
 
   * Include the `src/multisliderOverride.js` file (Ext must be included prior to this)
-  * Instantiate the slider/multislider, for example `var mySlider = Ext.create('Ext.slider.Multi', {useTips: false, persistTips: true, tipPrefix: 'EUR ', renderTo: Ext.getBody()} )` 
+  * Instantiate the slider/multislider, for example 
+  ```javascript
+  var mySlider = Ext.create('Ext.slider.Multi', {useTips: false, persistTips: true, tipPrefix: 'EUR ', renderTo: Ext.getBody()});
+  ```
+  
   
 
 **List of Changes**
